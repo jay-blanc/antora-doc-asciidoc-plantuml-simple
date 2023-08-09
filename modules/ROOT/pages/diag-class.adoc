@@ -1,0 +1,19 @@
+= Antora - Doc asciidoc avec PlantUML simple
+
+== 1er chapitre
+
+Contenu de 1er chapitre
+
+Bla bla bla bla...
+
+
+== 2e chapitre
+
+Ci-dessous un diagramme PlantUML :
+
+.Diagramme de classe
+[plantuml, format="png"]
+....
+include::example$diagramme-class.puml[]
+....
+

@@ -1,0 +1,15 @@
+@startuml
+
+class ClassA {
+  - attribute1: Long
+  - attribute2: String
+}
+
+class ClassB {
+  - attribute1: Long
+  - attribute2: String
+}
+
+ClassA "1" -- "*" ClassB : linked
+
+@enduml
